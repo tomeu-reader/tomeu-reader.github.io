@@ -1,0 +1,5 @@
+{
+    "iteration": 1,
+    "version": "1.0.0",
+    "message": "• Initial release"
+}

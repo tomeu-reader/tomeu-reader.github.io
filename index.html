@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Tomeu: A mobile e-reader for Mandarin Chinese learners and readers.">
+    <meta name="keywords" content="mandarin, ereader, epub, dictionary, flashcards, reading, chinese">
+    <meta name="author" content="Springtome Interactive">
+    <meta property="og:title" content="Tomeu - Chinese Reader">
+    <meta property="og:description" content="Tomeu combines ebook reading with built-in Chinese dictionary lookup, word mining, and flashcard review.">
+    <meta property="og:image" content="featuredimage.png">
+    <meta property="og:url" content="https://springtome-interactive.github.io">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tomeu - Mandarin E-Reader">
+    <meta name="twitter:description" content="A mobile e-reader for Mandarin Chinese learners and readers.">
+    <meta name="twitter:image" content="featuredimage.png">
+    <title>Tomeu - Interactive Mandarin E-Reader</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <style>
+        @font-face {
+            font-family: 'URW Gothic';
+            src: url('./fonts/URWGothic-Book.otf') format('opentype');
+            font-weight: 400;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'URW Gothic';
+            src: url('./fonts/URWGothic-BookOblique.otf') format('opentype');
+            font-weight: 400;
+            font-style: italic;
+        }
+        @font-face {
+            font-family: 'URW Gothic';
+            src: url('./fonts/URWGothic-Demi.otf') format('opentype');
+            font-weight: 600;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'URW Gothic';
+            src: url('./fonts/URWGothic-DemiOblique.otf') format('opentype');
+            font-weight: 600;
+            font-style: italic;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #FCF8F1;
+            color: #1E1B18;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 800px;
+            padding: 20px;
+        }
+
+        .icon {
+            font-size: 4rem;
+            color: #738A58;
+            margin-bottom: 20px;
+        }
+
+        .app-name {
+            font-family: 'URW Gothic', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin: 10px 0;
+            color: #738A58;
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            color: #524A44;
+        }
+
+        .support {
+            font-size: 1rem;
+            margin-bottom: 20px;
+            color: #524A44;
+        }
+
+        .screenshots {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+
+        .screenshot {
+            width: calc(100vw / 5);
+            max-width: 320px;
+            aspect-ratio: 9 / 16;
+            background-color: #F3F2EF;
+            border: 1.5px solid #C9C4BC;
+            border-radius: 14px;
+            background-size: cover;
+            background-position: center;
+            box-shadow: 0 8px 24px #1E1B1820;
+        }
+
+        .description {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #1E1B18;
+            margin-bottom: 30px;
+			text-align: justify;
+            background-color: #FFFDFC;
+			padding: 25px 25px 25px 25px;
+            border: 1.5px solid #E3E0DA;
+            border-radius: 14px;
+            box-shadow: 0 4px 12px #1E1B1818;
+        }
+
+        .playstore-button {
+            background-color: #738A58;
+            border: none;
+            border-radius: 10px;
+            padding: 15px 30px;
+            color: #FFFDFC;
+            font-size: 1rem;
+            display: inline-flex;
+            align-items: center;
+            text-decoration: none;
+            transition: background-color 0.18s cubic-bezier(0.215, 0.61, 0.355, 1);
+        }
+
+        .playstore-button:hover {
+            background-color: #536341;
+        }
+
+        .playstore-button i {
+            margin-right: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .icon {
+                font-size: 3rem;
+            }
+
+            .app-name {
+                font-size: 2rem;
+            }
+
+            .tagline {
+                font-size: 1rem;
+            }
+
+            .support {
+                font-size: 0.9rem;
+            }
+
+            .screenshot {
+                width: calc(100vw / 3);
+                max-width: 120px;
+            }
+
+            .description {
+                font-size: 0.9rem;
+            }
+
+            .playstore-button {
+                font-size: 0.9rem;
+                padding: 10px 20px;
+            }
+        }
+		
+        .copyright {
+            font-size: 0.8rem;
+            margin-bottom: 30px;
+            color: #8F877E;
+        }
+
+    </style>
+	<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16838653589"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-16838653589'); </script>
+	<!-- Event snippet for Page view (1) conversion page -->
+	<script>
+	  gtag('event', 'conversion', {'send_to': 'AW-16838653589/RpIcCK-5j5gaEJXtpd0-'});
+	</script>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">
+            <img src="TomeuLogoBG512.png" width="200" height="200" alt="Tomeu Logo"></img>
+        </div>
+        <div class="app-name">Tomeu</div>
+        <div class="tagline">A mobile e-reader for Mandarin Chinese learners and readers.</div>
+        <a id="google-playstore-button" class="playstore-button" href="https://play.google.com/store/apps/details?id=com.springtomeinteractive.tomeu" target="_blank">
+            <i class="fab fa-google-play"></i>
+            Get it on Google Play
+        </a>
+		<br><br><br><br><br>
+        <div class="support">Support us to develop an iOS version:</div>
+		<a id="donate-button" class="playstore-button" href="https://ko-fi.com/hanzideck" target="_blank">
+            <i class="fa-solid fa-hand-holding-dollar"></i>
+			Donate
+        </a>
+		
+		<br>
+		<br>
+		<br>
+        <!--
+		<div class="screenshots">
+            <div class="screenshot" style="background-image: url('images/SS1.png');"></div>
+			<div>
+			
+			</div>
+        </div>
+        -->
+
+        <div class="description">
+            Tomeu is an interactive e-reader app designed to turn reading into an active study workflow without forcing you to switch between separate reader, dictionary, and flashcard apps.<br>
+			<br>
+			<ul>
+			<li> Immersive Reading Experience<br>
+			Import your EPUB, PDF, MOBI, AZW, TXT, HTML, DOCX, and SRT files. Customize the reader with your prefered typography and themes.<br></li>
+			<br>
+			<li> Dual Subtitle Video Player<br>
+			Import your local video files, and attach primary SRT and secondary SRT to view them in our specialized interactive video player with convenient subtitle controls.<br></li>
+			<br>
+			<li> Instant Dictionary Lookup<br>
+			Tap any Chinese word to instantly see dictionary information, including pinyin and definition.<br></li>
+			<br>
+			<li> Mining Words and Sentences<br>
+			Select a word and save it to your Vocab List with sentence context automatically included. Mined content will be highlighted in the source document.<br></li>
+			<br>
+			<li> Built-in Flashcards & Spaced Repetition<br>
+			Review your Vocab List using flashcards with our spaced repetition scheduler.<br></li>
+			<br>
+			<li> Deck Exporter<br>
+			You can export your Vocab List to Hanzi Deck .json file, or to Anki as .apkg file.<br></li>
+			<br>
+			<li> Offline First & Cloud Sync<br>
+			Core reading, lookup, and review work beautifully without internet access. Backup and restore your data securely using Google Drive.<br></li>
+			<br>
+			</ul>
+			Read real Chinese content without the constant stop-and-go of looking things up. Save new words as you go and keep your focus on the story.<br>
+        </div>
+		
+		<br>
+		<br>
+		<a id="discord-button" class="copyright" href="https://discord.gg/NN4qtDt2p3" target="_blank">Discord</a>
+		<a class="copyright" href="./pages/privacypolicy.html" target="_blank">Privacy Policy</a>
+		<br>
+		<a id="copyright_text" class="copyright">© 2026 Springtome Interactive</a>
+    </div>
+	
+	<script>
+	var copyrightText = document.getElementById("copyright_text");
+	copyrightText.innerHTML = "© " + new Date().getFullYear() + " Springtome Interactive";
+	
+	const urlParams = new URLSearchParams(window.location.search);
+    const ref = urlParams.get('ref');
+    if (ref == 1) {
+		var playstoreButton = document.getElementById("google-playstore-button");
+		playstoreButton.href = "./pages/googleplaystore.html?ref=1";
+		
+		var donateButton = document.getElementById("donate-button");
+		donateButton.href = "./pages/donate.html?ref=1";
+		
+		var discordButton = document.getElementById("discord-button");
+		discordButton.href = "./pages/discord.html?ref=1";
+	}
+	</script>
+</body>
+</html>
