@@ -1,5 +1,5 @@
 {
-    "iteration": 1,
-    "version": "1.0.0",
-    "message": "• Rilisan awal"
+  "iteration": 2,
+  "version": "1.0.3",
+  "message": "• 'variant of' kini dapat diklik\n• Peningkatan deteksi kata pada kamus saat diketuk\n• Peningkatan deteksi pinyin"
 }

@@ -1,5 +1,5 @@
 {
-    "iteration": 1,
-    "version": "1.0.0",
-    "message": "• Initial release"
+    "iteration": 2,
+    "version": "1.0.3",
+    "message": "• 'variant of' is now clickable\n• Improved tap dictionary word detection\n• Improved pinyin detection"
 }
