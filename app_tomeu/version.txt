@@ -1,5 +1,5 @@
 {
-    "iteration": 2,
-    "version": "1.0.3",
-    "message": "• 'variant of' is now clickable\n• Improved tap dictionary word detection\n• Improved pinyin detection"
+    "iteration": 3,
+    "version": "1.0.4",
+    "message": "• Added a button in saved vocab modal to open the original dictionary's pinyin and definition list modal"
 }

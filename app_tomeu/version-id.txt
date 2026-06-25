@@ -1,5 +1,5 @@
 {
-  "iteration": 2,
-  "version": "1.0.3",
-  "message": "• 'variant of' kini dapat diklik\n• Peningkatan deteksi kata pada kamus saat diketuk\n• Peningkatan deteksi pinyin"
+  "iteration": 3,
+  "version": "1.0.4",
+  "message": "• Penambahan tombol di panel vocab tersimpan untuk membuka pinyin dan definisi dari kamus"
 }
