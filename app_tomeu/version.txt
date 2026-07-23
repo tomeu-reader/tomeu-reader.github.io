@@ -1,5 +1,5 @@
 {
-    "iteration": 3,
-    "version": "1.0.4",
-    "message": "• Added a button in saved vocab modal to open the original dictionary's pinyin and definition list modal"
+    "iteration": 4,
+    "version": "1.0.6",
+    "message": "• Added an Add Vocab button next to each individual definition entry in the tap dictionary sheet\n• Passed the actual tapped context sentence from the document when opening a dictionary sheet from a saved vocabulary sheet\n• Context sentence extractor now excludes triple dots from being a sentence terminator"
 }

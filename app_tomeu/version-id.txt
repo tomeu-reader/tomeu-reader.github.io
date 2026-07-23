@@ -1,5 +1,5 @@
 {
-  "iteration": 3,
-  "version": "1.0.4",
-  "message": "• Penambahan tombol di panel vocab tersimpan untuk membuka pinyin dan definisi dari kamus"
+  "iteration": 4,
+  "version": "1.0.6",
+  "message": "• Tombol Add Vocab di samping setiap entri definisi pada kamus sentuh\n• Pengambilan kalimat Context yang dari teks yang dipilih di dokumen saat membuka kamus sentuh dari tampilan Vocab yang disimpan\n• Pengambilan kalimat Context kini tidak lagi menganggap tiga titik sebagai akhir kalimat"
 }
