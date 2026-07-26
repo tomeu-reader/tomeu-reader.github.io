@@ -1,5 +1,5 @@
 {
-  "iteration": 4,
-  "version": "1.0.6",
-  "message": "• Tombol Add Vocab di samping setiap entri definisi pada kamus sentuh\n• Pengambilan kalimat Context yang dari teks yang dipilih di dokumen saat membuka kamus sentuh dari tampilan Vocab yang disimpan\n• Pengambilan kalimat Context kini tidak lagi menganggap tiga titik sebagai akhir kalimat"
+    "iteration": 5,
+    "version": "1.1.0",
+    "message": "• Penambahan fitur pencarian dan filter di daftar kosakata\n • Peningkatan UX kamus sentuh"
 }
