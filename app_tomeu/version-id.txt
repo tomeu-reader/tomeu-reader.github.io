@@ -1,5 +1,5 @@
 {
-    "iteration": 6,
-    "version": "1.2.5",
+    "iteration": 7,
+    "version": "1.2.6",
     "message": "• Fitur baru untuk menambahkan video YouTube ke library beserta subtitle-nya\n• Meningkatkan kontrol dan animasi pergantian halaman dengan drag tracking secara real-time dan visual yang lebih baik\n• Menambahkan mode tombol on-screen pada mode navigasi halaman\n• Dukungan fitur \"Buka dengan...\"\n• Meningkatkan performa pada mode continuous scroll"
 }
