@@ -1,5 +1,5 @@
 {
-    "iteration": 5,
-    "version": "1.1.0",
-    "message": "• Added search & filter feature in vocabulary list screen\n• Improved dictionary sheet UX"
+    "iteration": 6,
+    "version": "1.2.5",
+    "message": "• Added a feature to add YouTube video to the library along with the subtitles\n• Improved page turning control and animation with real-time drag tracking and better visual\n• Added on-screen buttons mode in page navigation mode in addition to swipe and screen edge tap\n• \"Open with...\" support\n• Improved performance on continuous scroll mode"
 }
