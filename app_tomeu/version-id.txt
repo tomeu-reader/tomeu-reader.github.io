@@ -1,5 +1,5 @@
 {
-    "iteration": 7,
-    "version": "1.2.6",
-    "message": "• Fitur baru untuk menambahkan video YouTube ke library beserta subtitle-nya\n• Meningkatkan kontrol dan animasi pergantian halaman dengan drag tracking secara real-time dan visual yang lebih baik\n• Menambahkan mode tombol on-screen pada mode navigasi halaman\n• Dukungan fitur \"Buka dengan...\"\n• Meningkatkan performa pada mode continuous scroll"
+    "iteration": 8,
+    "version": "1.3.5",
+    "message": "Pembaruan utama:\n• Menambahkan Jump History di Reader untuk bisa kembali setelah melompati halaman menggunakan bookmark, chapter, atau anchor link\n• Menambahkan opsi untuk menerjemahkan subtitle utama sebagai subtitle kedua\n• Fitur pengumpulan kosa kata otomatis pada pemutar video berdasarkan subtitle\nPembaruan minor:\n• Memperbaiki masalah indentasi pada paragraf yang terpisah halaman di jenis buku tertentu\n• Peningkatan modal Subtitle Options\n• Menekan repeat atau loop subtitle saat ini akan melanjutkan video\n• Peningkatan layar daftar kosa kata\n• dll"
 }

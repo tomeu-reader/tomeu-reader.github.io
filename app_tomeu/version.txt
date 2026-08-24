@@ -1,5 +1,5 @@
 {
-    "iteration": 7,
-    "version": "1.2.6",
-    "message": "• Added a feature to add YouTube video to the library along with the subtitles\n• Improved page turning control and animation with real-time drag tracking and better visual\n• Added on-screen buttons mode in page navigation mode in addition to swipe and screen edge tap\n• \"Open with...\" support\n• Improved performance on continuous scroll mode"
+    "iteration": 8,
+    "version": "1.3.5",
+    "message": "Major updates:\n• Added Jump History in reader to be able to go back after jumping by bookmark, chapter, or anchor link\n• Added an option to translate primary subtitle as the secondary subtitle\n• Auto collect vocabularies feature in video player based on subtitle\nMinor updates:\n• Fixed indentation issue in page-separated paragraphs in certain type of books\n• Improved Subtitle Options modal\n• Pressing repeat or loop current subtitle will resume the video\n• Improved vocab list screen\n• etc"
 }
