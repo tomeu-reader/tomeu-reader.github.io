@@ -1,5 +1,5 @@
 {
-    "iteration": 8,
-    "version": "1.3.5",
-    "message": "Major updates:\n• Added Jump History in reader to be able to go back after jumping by bookmark, chapter, or anchor link\n• Added an option to translate primary subtitle as the secondary subtitle\n• Auto collect vocabularies feature in video player based on subtitle\nMinor updates:\n• Fixed indentation issue in page-separated paragraphs in certain type of books\n• Improved Subtitle Options modal\n• Pressing repeat or loop current subtitle will resume the video\n• Improved vocab list screen\n• etc"
+    "iteration": 9,
+    "version": "1.4.6",
+    "message": "Major update:\n• Collections feature that can work as a playlist of books and videos. This can also be auto imported using YouTube playlist URL. Documents within the same collection also share the vocabulary items.\n\nMinor updates:\n• Fixed mistaken YouTube error\n• Fixed where exiting full-screen video won't restore screen rotation\n• Fixed where certain process can be accidentally interrupted\n• Improved reader screen button layout\n• Improved video player button layout"
 }

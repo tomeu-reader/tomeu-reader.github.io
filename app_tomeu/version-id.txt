@@ -1,5 +1,5 @@
 {
-    "iteration": 8,
-    "version": "1.3.5",
-    "message": "Pembaruan utama:\n• Menambahkan Jump History di Reader untuk bisa kembali setelah melompati halaman menggunakan bookmark, chapter, atau anchor link\n• Menambahkan opsi untuk menerjemahkan subtitle utama sebagai subtitle kedua\n• Fitur pengumpulan kosa kata otomatis pada pemutar video berdasarkan subtitle\nPembaruan minor:\n• Memperbaiki masalah indentasi pada paragraf yang terpisah halaman di jenis buku tertentu\n• Peningkatan modal Subtitle Options\n• Menekan repeat atau loop subtitle saat ini akan melanjutkan video\n• Peningkatan layar daftar kosa kata\n• dll"
+    "iteration": 9,
+    "version": "1.4.6",
+    "message": "Pembaruan utama:\n• Fitur Collections yang dapat berfungsi sebagai playlist buku dan video. Ini juga dapat diimpor secara otomatis menggunakan URL playlist YouTube. Dokumen dalam koleksi yang sama juga berbagi item kosakata.\nPembaruan minor:\n• Memperbaiki kesalahan error YouTube yang keliru\n• Memperbaiki masalah di mana keluar dari video fullscreen tidak mengembalikan rotasi layar\n• Memperbaiki masalah di mana proses tertentu dapat terganggu secara tidak sengaja\n• Peningkatan tata letak tombol layar reader\n• Peningkatan tata letak tombol pemutar video"
 }
