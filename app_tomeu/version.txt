@@ -1,5 +1,6 @@
 {
-    "iteration": 9,
-    "version": "1.4.6",
-    "message": "Major update:\n• Collections feature that can work as a playlist of books and videos. This can also be auto imported using YouTube playlist URL. Documents within the same collection also share the vocabulary items.\n\nMinor updates:\n• Fixed mistaken YouTube error\n• Fixed where exiting full-screen video won't restore screen rotation\n• Fixed where certain process can be accidentally interrupted\n• Improved reader screen button layout\n• Improved video player button layout"
+    "iteration": 10,
+    "version": "1.5.4",
+    "message": "• Added a new feature to Generate Chinese Subtitles based on audio using offline local AI\n• Added a feature to convert subtitles between Simplified & Traditional Chinese\n• Added edit subtitle feature\n• Added Save as SRT option\n• Improved Subtitle Options menu\n• Added more sample documents\n• Fixed where character with long pinyin overlap each other when \"Show Pinyin\" is enabled\n• Fixed local backup & restore issue"
 }
+

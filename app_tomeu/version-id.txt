@@ -1,5 +1,6 @@
 {
-    "iteration": 9,
-    "version": "1.4.6",
-    "message": "Pembaruan utama:\n• Fitur Collections yang dapat berfungsi sebagai playlist buku dan video. Ini juga dapat diimpor secara otomatis menggunakan URL playlist YouTube. Dokumen dalam koleksi yang sama juga berbagi item kosakata.\nPembaruan minor:\n• Memperbaiki kesalahan error YouTube yang keliru\n• Memperbaiki masalah di mana keluar dari video fullscreen tidak mengembalikan rotasi layar\n• Memperbaiki masalah di mana proses tertentu dapat terganggu secara tidak sengaja\n• Peningkatan tata letak tombol layar reader\n• Peningkatan tata letak tombol pemutar video"
+    "iteration": 10,
+    "version": "1.5.4",
+    "message": "• Fitur baru untuk Generate Subtitle Bahasa Mandarin berdasarkan audio menggunakan AI lokal offline\n• Fitur konversi subtitle antara Bahasa Mandarin Sederhana & Tradisional\n• Fitur edit subtitle\n• Opsi Simpan sebagai SRT\n• Peningkatan menu Subtitle Options\n• Menambahkan lebih banyak dokumen sampel\n• Memperbaiki masalah karakter dengan pinyin panjang saling tumpang tindih saat \"Show Pinyin\" diaktifkan\n• Memperbaiki masalah local backup & restore"
 }
+
