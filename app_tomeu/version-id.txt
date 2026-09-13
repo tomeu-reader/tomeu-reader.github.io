@@ -1,6 +1,5 @@
 {
-    "iteration": 10,
-    "version": "1.5.4",
-    "message": "• Fitur baru untuk Generate Subtitle Bahasa Mandarin berdasarkan audio menggunakan AI lokal offline\n• Fitur konversi subtitle antara Bahasa Mandarin Sederhana & Tradisional\n• Fitur edit subtitle\n• Opsi Simpan sebagai SRT\n• Peningkatan menu Subtitle Options\n• Menambahkan lebih banyak dokumen sampel\n• Memperbaiki masalah karakter dengan pinyin panjang saling tumpang tindih saat \"Show Pinyin\" diaktifkan\n• Memperbaiki masalah local backup & restore"
+    "iteration": 11,
+    "version": "1.6.0",
+    "message": "• Fitur baru untuk Import dari link Music DSP\n• Filter multi-format\n• Memperbaiki masalah terkait bookmark highlighting\n• Memperbaiki masalah native navigation bar di Android 16\n• Memperbaiki masalah di mana \"Open with\" tidak berfungsi di perangkat tertentu"
 }
-

@@ -1,6 +1,5 @@
 {
-    "iteration": 10,
-    "version": "1.5.4",
-    "message": "• Added a new feature to Generate Chinese Subtitles based on audio using offline local AI\n• Added a feature to convert subtitles between Simplified & Traditional Chinese\n• Added edit subtitle feature\n• Added Save as SRT option\n• Improved Subtitle Options menu\n• Added more sample documents\n• Fixed where character with long pinyin overlap each other when \"Show Pinyin\" is enabled\n• Fixed local backup & restore issue"
+    "iteration": 11,
+    "version": "1.6.0",
+    "message": "• A new feature to Import from Music DSP link\n• Multiple formats filter\n• Fixed bookmark highlighting related issues\n• Fixed native navigation bar issue in Android 16\n• Fixed where \"Open with\" did not work in certain devices"
 }
-
