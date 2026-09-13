@@ -1,5 +1,5 @@
 {
     "iteration": 11,
-    "version": "1.6.0",
-    "message": "• Fitur baru untuk Import dari link Music DSP\n• Filter multi-format\n• Memperbaiki masalah terkait bookmark highlighting\n• Memperbaiki masalah native navigation bar di Android 16\n• Memperbaiki masalah di mana \"Open with\" tidak berfungsi di perangkat tertentu"
+    "version": "1.6.1",
+    "message": "• Fitur baru untuk Import dari link Music DSP\n• Filter multi-format\n• Memperbaiki masalah terkait bookmark highlighting\n• Memperbaiki masalah native navigation bar di Android 16\n• Memperbaiki masalah di mana \"Open with\" tidak berfungsi di perangkat tertentu\n• Penggabungan suku kata pinyin berbasis frasa saat kosakata dikumpulkan\n• Memperbaiki masalah di mana pengumpulan kosakata melalui seleksi teks di PDF tidak menghasilkan Context\n• Memperbaiki masalah terjemahan subtitle yang dapat gagal pada blok tertentu"
 }
