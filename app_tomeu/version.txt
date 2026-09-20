@@ -1,5 +1,5 @@
 {
-    "iteration": 11,
-    "version": "1.6.1",
-    "message": "• A new feature to Import from Music DSP link\n• Multiple formats filter\n• Fixed bookmark highlighting related issues\n• Fixed native navigation bar issue in Android 16\n• Fixed where \"Open with\" did not work in certain devices\n• Phrase aware pinyin syllable joining when a vocab is collected\n• Fixed where collect vocab using text selection in PDF won't generate context\n• Fixed subtitles translation where it could fail in certain blocks"
+    "iteration": 12,
+    "version": "1.7.2",
+    "message": "• Matroska (.mkv) embedded subtitles support\n• Added fullscreen subtitle blocks overlay in video player\n• Import Spotify playlist URL\n• Improved song search resolve\n• Added Pinyin Target option when Show Pinyin is enabled\n• Removed offline translation fallback when translation mode is online\n• Display Settings in video player now scraps irrelevant reader settings options\n• Import from File can now import from external storage\n• Bulk import files with an option to auto add to collection"
 }

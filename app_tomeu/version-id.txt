@@ -1,5 +1,5 @@
 {
-    "iteration": 11,
-    "version": "1.6.1",
-    "message": "• Fitur baru untuk Import dari link Music DSP\n• Filter multi-format\n• Memperbaiki masalah terkait bookmark highlighting\n• Memperbaiki masalah native navigation bar di Android 16\n• Memperbaiki masalah di mana \"Open with\" tidak berfungsi di perangkat tertentu\n• Penggabungan suku kata pinyin berbasis frasa saat kosakata dikumpulkan\n• Memperbaiki masalah di mana pengumpulan kosakata melalui seleksi teks di PDF tidak menghasilkan Context\n• Memperbaiki masalah terjemahan subtitle yang dapat gagal pada blok tertentu"
+    "iteration": 12,
+    "version": "1.7.2",
+    "message": "• Dukungan embedded subtitle Matroska (.mkv)\n• Menambahkan overlay subtitle blocks di pemutar video fullscreen\n• Import URL playlist Spotify\n• Peningkatan resolve pencarian lagu\n• Menambahkan opsi Pinyin Target saat \"Show Pinyin\" diaktifkan\n• Menghapus fallback terjemahan offline saat mode terjemahan online\n• Display Settings di pemutar video kini menghapus opsi reader settings yang tidak relevan\n• Import from File kini dapat mengimpor dari penyimpanan eksternal\n• Bulk import file dengan opsi otomatis menambahkan ke koleksi"
 }
