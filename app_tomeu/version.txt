@@ -1,5 +1,5 @@
 {
-    "iteration": 12,
-    "version": "1.7.2",
-    "message": "• Matroska (.mkv) embedded subtitles support\n• Added fullscreen subtitle blocks overlay in video player\n• Import Spotify playlist URL\n• Improved song search resolve\n• Added Pinyin Target option when Show Pinyin is enabled\n• Removed offline translation fallback when translation mode is online\n• Display Settings in video player now scraps irrelevant reader settings options\n• Import from File can now import from external storage\n• Bulk import files with an option to auto add to collection"
+    "iteration": 13,
+    "version": "1.8.0",
+    "message": "• Added 10-bit HEVC (x265) video playback support\n• Optimized embedded subtitle extraction for MKV files\n• MKV audio track selection"
 }
