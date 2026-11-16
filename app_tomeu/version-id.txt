@@ -1,5 +1,5 @@
 {
-    "iteration": 13,
-    "version": "1.8.0",
-    "message": "• Menambahkan dukungan pemutaran video 10-bit HEVC (x265)\n• Optimalisasi ekstraksi embedded subtitle untuk file MKV\n• Pemilihan audio track MKV"
+    "iteration": 14,
+    "version": "1.8.1",
+    "message": "• Dukungan outline subtitle style dan pengaturan opasitas background subtitle\n• Memperbaiki tampilan subtitle dengan timing tumpang tindih dan simultan pada pemutar video\n• Peningkatan performa seeking dan pembaruan UI kontrol video player\n• Dokumen otomatis berpindah ke urutan terdepan saat progres membaca tersimpan"
 }

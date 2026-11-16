@@ -1,5 +1,5 @@
 {
-    "iteration": 13,
-    "version": "1.8.0",
-    "message": "• Added 10-bit HEVC (x265) video playback support\n• Optimized embedded subtitle extraction for MKV files\n• MKV audio track selection"
+    "iteration": 14,
+    "version": "1.8.1",
+    "message": "• Subtitle outline style support and adjustable background opacity\n• Fixed timing overlapping and simultaneous subtitle display in video player\n• Improved local video player seeking performance and refined controls UI\n• Move updated document to front of library when progress is saved"
 }
