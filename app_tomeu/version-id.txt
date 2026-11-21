@@ -1,5 +1,5 @@
 {
-    "iteration": 14,
-    "version": "1.8.1",
-    "message": "• Dukungan outline subtitle style dan pengaturan opasitas background subtitle\n• Memperbaiki tampilan subtitle dengan timing tumpang tindih dan simultan pada pemutar video\n• Peningkatan performa seeking dan pembaruan UI kontrol video player\n• Dokumen otomatis berpindah ke urutan terdepan saat progres membaca tersimpan"
+    "iteration": 15,
+    "version": "1.8.2",
+    "message": "• Tampilan outline teks subtitle lebih tajam dan bersih pada opsi style outline\n• Subtitle fullscreen kini tidak lagi menghalangi kontrol video player dan perbaikan indikator double-tap seek\n• Pembersihan baris suku kata karaoke yang berulang pada subtitle ASS/MKV serta pembatasan tinggi overlay\n• Video player kini otomatis menjeda saat membuka detail kosakata tersimpan dan lanjut saat ditutup\n• Mengatasi video lag saat membuka beberapa file video lokal secara berturut-turut"
 }

@@ -1,5 +1,5 @@
 {
-    "iteration": 14,
-    "version": "1.8.1",
-    "message": "• Subtitle outline style support and adjustable background opacity\n• Fixed timing overlapping and simultaneous subtitle display in video player\n• Improved local video player seeking performance and refined controls UI\n• Move updated document to front of library when progress is saved"
+    "iteration": 15,
+    "version": "1.8.2",
+    "message": "• Sharper, cleaner text outlines for the subtitle outline style\n• Prevented fullscreen subtitles from blocking video player controls and fixed double-tap seek indicators\n• Filtered out repetitive karaoke syllable lines in ASS/MKV subtitles and constrained overlay height\n• Video player now pauses when opening collected vocabulary details and resumes on dismiss\n• Fixed video playback lag when switching between multiple local videos consecutively"
 }
