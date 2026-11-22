@@ -1,5 +1,5 @@
 {
-    "iteration": 15,
-    "version": "1.8.2",
-    "message": "• Tampilan outline teks subtitle lebih tajam dan bersih pada opsi style outline\n• Subtitle fullscreen kini tidak lagi menghalangi kontrol video player dan perbaikan indikator double-tap seek\n• Pembersihan baris suku kata karaoke yang berulang pada subtitle ASS/MKV serta pembatasan tinggi overlay\n• Video player kini otomatis menjeda saat membuka detail kosakata tersimpan dan lanjut saat ditutup\n• Mengatasi video lag saat membuka beberapa file video lokal secara berturut-turut"
+    "iteration": 16,
+    "version": "1.8.3",
+    "message": "• Pinyin realtime kini membedakan liǎo dan le pada 了 berdasarkan konteks\n• Tombol suara di kamus kini mengucapkan pinyin sesuai bacaan setiap entri varian\n• Pencarian pinyin ketika menambahkan kosakata kini hanya menampilkan kata yang sama persis\n• Memperbaiki masalah salah membuka kosakata saat mengetuk kata pada video di playlist\n• Memperbaiki posisi pemutaran video yang kembali ke awal saat keluar dari video player\n• Memperbaiki video lokal yang tidak diputar otomatis saat berpindah ke video berikutnya di playlist\n• Peningkatan posisi seek bar dan tombol kontrol pada video player"
 }

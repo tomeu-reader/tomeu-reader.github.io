@@ -1,5 +1,5 @@
 {
-    "iteration": 15,
-    "version": "1.8.2",
-    "message": "• Sharper, cleaner text outlines for the subtitle outline style\n• Prevented fullscreen subtitles from blocking video player controls and fixed double-tap seek indicators\n• Filtered out repetitive karaoke syllable lines in ASS/MKV subtitles and constrained overlay height\n• Video player now pauses when opening collected vocabulary details and resumes on dismiss\n• Fixed video playback lag when switching between multiple local videos consecutively"
+    "iteration": 16,
+    "version": "1.8.3",
+    "message": "• Realtime pinyin now distinguishes between liǎo and le for 了 based on context\n• Dictionary speak button now pronounces the pinyin of each variant entry\n• Enforced exact word matching in pinyin lookup when collecting a vocab\n• Fixed tapping a word opening the wrong saved vocabulary item across playlist\n• Fixed video playback position resetting to the beginning when leaving the player\n• Fixed local videos not playing automatically when advancing to the next video in a playlist\n• Improved seek bar and control button positioning in the video player"
 }
